@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #d46199;
+        }
+
+        header {
+            background: #0b0b0b;
+            color: #de5788;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        section {
+            padding: 1rem;
+            margin: 1rem;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #e273ad;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 0.5rem auto;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+        }
+
+        ul li img {
+            margin-left: 1rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label, form input, form button {
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #080808;
+            color: #da5897;
+        }
+
+        a {
+            color: #b7497d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .hobby-divider {
+            border-top: 2px solid #d66e88;
+            margin: 1rem 0;
+        }
+
+        .paragraph-background {
+            background-color: #e0f7fa;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello, I'm emanbaker</h1>
+    </header>
+    <section id="about-me" class="paragraph-background">
+        <h2>About Me</h2>
+        <img src="https://img.pikbest.com/wp/202408/program-code-web-development-concept-3d-illustrated-programming-and-coding_9836948.jpg!w700wp" alt="Coding Image">
+        <p>I am a web developer passionate about technology and programming. I love learning new things and improving my coding skills.</p>
+    </section>
+    <section id="hobbies" class="paragraph-background">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Drawing <img src="https://img.pikbest.com/origin/10/10/97/42rpIkbEsT89y.png!w700wp" alt="Drawing"></li>
+            <div class="hobby-divider"></div>
+            <li>Cooking <img src="https://i.pinimg.com/736x/76/83/fc/7683fcace9cfaf33f093f12aa683da0c.jpg" alt="Cooking"></li>
+            <div class="hobby-divider"></div>
+            <li>Reading <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQamdJoTWE1ZRkpO3eLEyDh9pomAHo7hE9l6g&s" alt="Reading"></li>
+        </ul>
+    </section>
+    <section id="guess-hobby" class="paragraph-background">
+        <h2>Guess My Favorite Hobby</h2>
+        <form>
+            <label for="hobby-guess">What is my favorite hobby?</label>
+            <input type="text" id="hobby-guess" name="hobby-guess">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="future-aspirations" class="paragraph-background">
+        <h2>Future Aspirations</h2>
+        <p>I aspire to become a professional web developer and contribute to innovative tech projects.</p>
+    </section>
+    <footer>
+        <p>To check out one of my previous projects, <a href="https://github.com/emanbaker/eman">click here</a>.</p>
+    </footer>
+</body>
+</html>
